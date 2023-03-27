@@ -1,0 +1,335 @@
+/* 
+Compile this file to css/custom_obRAsgSP.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 07 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-07-ace7bd0b"] */
+.slide[data-cid="slide-07-ace7bd0b"]{
+	.button.play.button-7 {
+    margin: 0 20px;
+  }
+  @include media(1100px, max) {
+    .button.play.button-7 {
+      display: block;
+      margin: 30px auto;
+    }
+  }
+}
+
+/* Slide 47 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-36e022c9"] */
+.slide[data-cid="slide-47-36e022c9"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-2f87f1c4"] */
+.slide[data-cid="slide-47-2f87f1c4"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-66589bf7"] */
+.slide[data-cid="slide-47-66589bf7"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-9acba47a"] */
+.slide[data-cid="slide-47-9acba47a"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#7) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-90e08ee8"] */
+.slide[data-cid="slide-47-90e08ee8"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 47 (#8) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-9d1bc7e8"] */
+.slide[data-cid="slide-47-9d1bc7e8"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 12 (#9) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-12-dd7a5bd9"] */
+.slide[data-cid="slide-12-dd7a5bd9"]{
+  @include media($phablet, min) {
+    form.slides-form .input-12 {
+      max-width: 300px;
+    }
+  }
+}
+
+/* Slide 104 (#10) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-104-dc975509"] */
+.slide[data-cid="slide-104-dc975509"]{
+  .slider-104{
+    img{
+      width:300px;
+      border:0px solid transparent;
+      transition: .5s;
+    }
+    .slick-slide{
+      &.slick-current{
+        img{
+          border: 10px solid $blue;
+          opacity:1 !important;
+        }
+      }
+    }
+  }
+  .slider-104-arrow{
+    @include media($phablet, max) {
+      .slick-prev{
+        margin-right: 0!important;
+        float: right;
+      }
+      .slick-next{
+        float: none;
+      }
+    }
+    &:hover{
+      svg{
+        opacity:0.6;
+      }
+    }
+    svg{
+      transition: .15s;
+    }
+  }
+  .slider-104-controller{
+    @include media($phablet, max) {
+      order:1;
+    }
+  }
+  .social-104:hover{
+    opacity: 1 !important;
+  }
+}
+
+/* Slide 68 (#11) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-68-8c2ed196"] */
+.slide[data-cid="slide-68-8c2ed196"]{
+  .flex-68 a {
+    display: inline-block;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    opacity: 0.9;
+    transition: opacity 0.1s ease-in, transform 0.15s cubic-bezier(0.5, 0, 0.25, 2.5);
+    &:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+  }
+  &.whiteSlide .tintLogos {
+    filter: brightness(0.2);
+  }
+  &:not(.whiteSlide) .tintLogos {
+    filter: brightness(1.3);
+  }
+}
+
+/* Slide 110 (#12) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-110-95e8d3ad"] */
+.slide[data-cid="slide-110-95e8d3ad"]{
+  .swiper-slide-110{
+    max-width: 300px;
+  }
+  .box-110{
+    background: $default-white-color;
+    box-shadow: $large-shadow;
+  }
+}
+
+/* Slide 07 (#13) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-07-516a1dcd"] */
+.slide[data-cid="slide-07-516a1dcd"]{
+	.button.play.button-7 {
+    margin: 0 20px;
+  }
+  @include media(1100px, max) {
+    .button.play.button-7 {
+      display: block;
+      margin: 30px auto;
+    }
+  }
+}
+
+/* Slide 99 (#15) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-99-55e580c2"] */
+.slide[data-cid="slide-99-55e580c2"]{
+  a.box-99:active, a.box-99:focus {
+    outline: none;
+  }
+  a.box-99:hover {
+    opacity: 1;
+  }
+  .thumbnail-99 {
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .blackout-99 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    z-index: 10;
+  }
+  .title-slide-99 {
+    position: absolute;
+    text-align: left;
+    width: 80%;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    line-height: 26px;
+    z-index: 15
+  }
+  .more-99 {
+    position: absolute;
+    bottom: 5px;
+    z-index: 15;
+    text-align: left;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Slide 74 (#16) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-74-9f076628"] */
+.slide[data-cid="slide-74-9f076628"]{
+  .box-74 {
+    color: $default-text-color;
+    border-radius: $rounded-border-radius;
+    overflow: hidden;
+    box-shadow: $small-shadow;
+    display: block;
+    outline: none;
+    margin-bottom: 25px;
+    -webkit-backface-visibility: hidden;
+    &:hover {
+      box-shadow: $large-shadow;
+      opacity: 0.95;
+    }
+    .name-74 {
+      padding: 20px 20px 30px 20px;
+      background: #FFFFFF;
+      border-radius: 0 0 $rounded-border-radius 0;
+    }
+    .thumbnail-74 {
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      img {
+        border-radius: $rounded-border-radius $rounded-border-radius 0 0;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+/* Slide 104 (#17) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-104-8286acd9"] */
+.slide[data-cid="slide-104-8286acd9"]{
+  .slider-104{
+    img{
+      width:300px;
+      border:0px solid transparent;
+      transition: .5s;
+    }
+    .slick-slide{
+      &.slick-current{
+        img{
+          border: 10px solid $blue;
+          opacity:1 !important;
+        }
+      }
+    }
+  }
+  .slider-104-arrow{
+    @include media($phablet, max) {
+      .slick-prev{
+        margin-right: 0!important;
+        float: right;
+      }
+      .slick-next{
+        float: none;
+      }
+    }
+    &:hover{
+      svg{
+        opacity:0.6;
+      }
+    }
+    svg{
+      transition: .15s;
+    }
+  }
+  .slider-104-controller{
+    @include media($phablet, max) {
+      order:1;
+    }
+  }
+  .social-104:hover{
+    opacity: 1 !important;
+  }
+}
+
+/* Slide 136 (#18) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-136-eaf6a156"] */
+.slide[data-cid="slide-136-eaf6a156"]{
+  .btn-136{
+    line-height:60px;
+  }
+}
+
+/* Slide 160 (#19) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-160-85f6c311"] */
+.slide[data-cid="slide-160-85f6c311"]{
+  .btn-160{
+    min-width:142px;
+  }
+}
